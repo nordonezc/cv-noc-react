@@ -1,5 +1,35 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+
+## Phase 1: Modern Frontend & Identity (Next.js Focus)
+- **Languages:** JavaScript (ES6+), TypeScript (Strict Mode).
+- **Core Framework:** Next.js 15+ (App Router, Server Components).
+- **Styling:** Tailwind CSS (Utility-first, responsive design).
+- **UI Architecture:** shadcn (Radix UI + Lucide Icons).
+- **CI/CD:** GitHub Actions + GitHub Pages/Vercel.
+
+## Phase 2: Advanced Backend (Java 21 & Spring Boot 3)
+- **Core:** Java 21 (Virtual Threads/Loom), Spring Boot 3.4+.
+- **Security:** HashiCorp Vault for secret management, OAuth2/JWT.
+- **Performance:** GraalVM Native Images for low-latency & low RAM.
+- **Persistence:** PostgreSQL (Relational), Redis (Caching), Flyway (Migrations).
+
+## Phase 3: AI & Data Science (Python Ecosystem)
+- **Environments:** Pyenv + Poetry.
+- **APIs:** FastAPI for high-performance ML serving.
+- **Libraries:** LangChain/LlamaIndex for RAG (Retrieval Augmented Generation).
+- **Integration:** Connecting Spring Boot with Python AI Agents.
+
+## Phase 4: Infrastructure & DevOps (The "Senior" Layer)
+- **Containerization:** Docker (Multi-stage, distroless images).
+- **Orchestration:** Kubernetes (K8s) - Nodes, Pods, Helm Charts.
+- **Observability:** Prometheus & Grafana stack.
+- **IaC:** Terraform for AWS/GCP resource provisioning.
+
+## Phase 5: Cloud Strategy (AWS & GCP)
+- **AWS:** ECS/Fargate, App Runner, S3, Lambda.
+- **GCP:** Cloud Run, GKE (Google Kubernetes Engine).
+
 # Folder structure
 * /app : Routes and Layouts. Similar to Controllers
 * /components: Buttons, navs, custom reusable components
@@ -8,7 +38,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 * /hooks: React logic
 * /types: Interfaces definitions 
 
+## Environment Setup
+- **OS:** Windows 11 + WSL2 (Ubuntu)
+- **Java Stack:** SDKMAN! installed (Java 21/Spring Boot ready)
+- **Node Stack:** NVM installed (Node.js 20+ LTS)
+- **Python Stack:** Pyenv installed (Python 3.12.1 for AI/ML)
+- **Infrastructure:** Docker Engine running natively on WSL2
+- **Version Control:** Git & SSH keys configured (GitHub connected)
 
+## Current Project: CV-NOC (Portfolio)
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS (Initialized)
+- **UI Library:** shadcn/ui (Initialized)
 
 ## Getting Started - Next Js / React
 
