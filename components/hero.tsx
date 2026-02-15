@@ -1,11 +1,11 @@
 "use client"
-import { motion } from "framer-motion"
+import { motion, Variants } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Rocket } from "lucide-react"
 import { PdfViewer } from "./pdf-viewer"
 
 export default function Hero() {
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -16,7 +16,7 @@ export default function Hero() {
     },
   }
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,

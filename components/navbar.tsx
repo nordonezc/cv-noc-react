@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 border-b border-slate-800 bg-slate-950/90 backdrop-blur-md text-slate-100">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+        <span className="text-xl font-bold bg-linear-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
           CV-NOC
         </span>
         
