@@ -1,0 +1,21 @@
+education:
+  - degree: "Master of Artificial Intelligence"
+    institution: "University of Technology Sydney"
+    location: "Sydney, Australia"
+    period: "FEB 2026 — In progress"
+    description: "Advanced study of AI agents, machine learning, and neural networks."
+    tags: ["AI", "Machine Learning", "Sydney"]
+
+  - degree: "MsC. Systems and Computing Engineering"
+    institution: "National University of Colombia"
+    location: "Bogotá, Colombia"
+    period: "JAN 2017 — OCT 2019"
+    description: "Research and advanced development in computing systems."
+    tags: ["Research", "Systems Engineering", "Bogotá"]
+
+  - degree: "Bachelor. Systems and Computing Engineering"
+    institution: "National University of Colombia"
+    location: "Bogotá, Colombia"
+    period: "JAN 2012 — JUN 2017"
+    description: "Core software engineering principles and computer science foundations."
+    tags: ["Software Engineering", "Computer Science"]

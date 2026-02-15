@@ -1,42 +1,30 @@
-"use client"
-
-import * as React from "react"
-import Link from "next/link"
-import { 
-  NavigationMenu, 
-  NavigationMenuItem, 
-  NavigationMenuLink, 
-  NavigationMenuList,
-  navigationMenuTriggerStyle 
-} from "@/components/ui/navigation-menu"
+import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-6 border-b bg-white/80 backdrop-blur-md sticky top-0 z-50">
-      <span className="font-bold text-xl tracking-tight">CV-NOC</span>
-      <NavigationMenu>
-        <NavigationMenuList className="flex space-x-2">
-          
-          <NavigationMenuItem>
-            <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="#about">About</Link>
-            </NavigationMenuLink>
-          </NavigationMenuItem>
+    <nav className="fixed top-0 w-full z-50 border-b bg-white/80 backdrop-blur-md">
+      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+        <span className="text-xl font-bold text-blue-600">CV-NOC</span>
+        
+        <div className="hidden md:flex items-center gap-8">
+          <a href="#home" className="text-sm font-medium hover:text-blue-600 transition-colors">
+            Home
+          </a>
+          <a href="#projects" className="text-sm font-medium hover:text-blue-600 transition-colors">
+            Experience
+          </a>
+          <a href="#education" className="text-sm font-medium hover:text-blue-600 transition-colors">
+            Education
+          </a>
+          <a href="#skills" className="text-sm font-medium hover:text-blue-600 transition-colors">
+            Skills
+          </a>
+        </div>
 
-          <NavigationMenuItem>
-            <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="#projects">Projects</Link>
-            </NavigationMenuLink>
-          </NavigationMenuItem>
-
-          <NavigationMenuItem>
-            <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="#contact">Contact</Link>
-            </NavigationMenuLink>
-          </NavigationMenuItem>
-
-        </NavigationMenuList>
-      </NavigationMenu>
+        <Button variant="default" size="sm" asChild>
+          <a href="mailto:nicolasoc.au@gmail.com">Contact Me</a>
+        </Button>
+      </div>
     </nav>
-  )
+  );
 }
