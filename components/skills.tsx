@@ -21,7 +21,11 @@ export default function Skills() {
   }
 
   return (
-    <section id="skills" className="py-24 flex flex-col items-center overflow-hidden bg-slate-50/30">
+    <section 
+  id="skills" 
+  className="relative py-24 flex flex-col items-center overflow-hidden bg-cover bg-bottom"
+  style={{ backgroundImage: "linear-gradient(to top, rgba(255, 255, 255, 0.95), rgba(219, 234, 254, 0.9)), url('https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070')" }}
+>
       <div className="flex flex-col items-center mb-16 text-center px-4">
         <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
           Technical & Soft Skills
@@ -33,6 +37,8 @@ export default function Skills() {
       </div>
       
       <SkillCloud skills={skills} />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-linear-to-t from-slate-50 to-transparent" />
+
     </section>
   );
 }

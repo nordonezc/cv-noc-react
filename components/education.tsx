@@ -22,7 +22,11 @@ export default function Education() {
     const data = yaml.load(fileContents) as { education: EducationItem[] };
 
     return (
-      <section id="education" className="py-20 px-4 max-w-6xl mx-auto">
+      <section 
+  id="education" 
+  className="relative py-20 px-4 bg-cover bg-center"
+  style={{ backgroundImage: "linear-gradient(to left, rgba(238, 242, 255, 0.92), rgba(238, 242, 255, 0.88)), url('https://images.unsplash.com/photo-1519074063912-ad25b57b9d17?q=80&w=1974')" }}
+>
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
             Education
@@ -68,6 +72,7 @@ export default function Education() {
             </Card>
           ))}
         </div>
+        <div className="absolute bottom-0 left-0 w-full h-32 bg-linear-to-t from-slate-50 to-transparent" />
       </section>
     );
   } catch (error) {
