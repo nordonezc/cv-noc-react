@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Download, Rocket } from "lucide-react"
+import { PdfViewer } from "./pdf-viewer"
 
 export default function Hero() {
   return (
@@ -22,11 +23,8 @@ export default function Hero() {
             <Rocket className="mr-2 size-5" /> View Projects
           </a>
         </Button>
-        <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-2" asChild>
-          <a href="/cv-noc-react/CV_Eng.pdf" download="Nicolas_Ordonez_CV.pdf">
-            <Download className="mr-2 size-5" /> Download CV
-          </a>
-        </Button>
+        
+        <PdfViewer />
       </div>
     </section>
   )

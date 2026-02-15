@@ -1,0 +1,41 @@
+skills:
+  - name: "Java"
+    level: 10
+  - name: "Spring Boot"
+    level: 10
+  - name: "AWS Cloud Practitioner"
+    level: 9
+  - name: "Microservices"
+    level: 9
+  - name: "PostgreSQL"
+    level: 8
+  - name: "Angular"
+    level: 8
+  - name: "Agile/Scrum"
+    level: 8
+  - name: "Software Architecture"
+    level: 9
+  - name: "Unit Testing (JUnit/TestNG)"
+    level: 9
+  - name: "Git/GitHub/Bitbucket"
+    level: 8
+  - name: "Design Patterns"
+    level: 8
+  - name: "Critical Thinking"
+    level: 7
+  - name: "Teamwork"
+    level: 7
+  - name: "Leadership"
+    level: 8
+  - name: "IELTS B2 (English)"
+    level: 7
+  - name: "Jira"
+    level: 6
+  - name: "Aurora/DynamoDB"
+    level: 8
+  - name: "SOA"
+    level: 7
+  - name: "Time Management"
+    level: 6
+  - name: "Constructive Feedback"
+    level: 6
